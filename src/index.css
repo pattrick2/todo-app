@@ -1,0 +1,93 @@
+.todolist{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  
+  }
+  
+  .title{
+    font-family: Arial;
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  /* h1{
+    font-size: 4rem;
+  } */
+  
+  button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-family: Arial;
+  }
+  
+  .AddBtn{
+    background-color: rgb(75, 101, 232);
+  }
+  .AddBtn:hover{
+    background-color: rgb(75, 101, 232);
+  }
+  
+  .DeleteBtn{
+    background-color: rgb(236, 98, 39);
+    
+  }
+  .DeleteBtn:hover{
+    background-color: darkred;
+  }
+  
+  .MoveBtn{
+    background-color: blue;
+  }
+  .MoveBtn:hover{
+    background-color: darkblue;
+  }
+  
+  input[type="text"]{
+    font-size: 1.6rem;
+    padding:10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: black;
+    margin-right: 10px;
+  
+  }
+  
+  ol{
+    padding: 0;
+  }
+  
+  li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color:rgb(253, 190, 192);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .text{
+    flex: 1;
+    
+  
+  
+  }
+  
+  .DeleteBtn, .MoveBtn {
+    padding: 6px 12px;
+    margin-right: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    /* display: flex;
+    gap: 10px; */
+  }
